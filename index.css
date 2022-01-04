@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #a6abad;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.left-section{
+    background-color: #242531;
+}
+
+.right-section{
+    background-color: #f7f7f7;
+}
+
+/* left section design */
+
+.left-content{
+    padding: 1rem;
+}
+
+.profile{
+    text-align: center;
+    margin: auto;
+}
+
+.profile-image{
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight:700;
+    letter-spacing:0.02px;
+    text-align: center;
+    text-transform: uppercase;
+    padding:0.8rem;
+}
+
+.designation{
+    font-size:1rem;
+    padding-bottom:0.5rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description{
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    list-style-type:none;
+}
+
+.fab{
+    color: white;
+    font-size: 21px;
+}
+
+.personal-details{
+    margin-top:1rem;
+}
+
+.flex-container{
+    display: flex;
+    align-items:center;
+}
+
+span{
+    font-size: 16px;
+}
+
+.material-icons{
+    color: white;
+    font-size: 20px;
+}
+span{
+    color:white;
+}
+.skills{
+    font-size:0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+    padding:1rem 0.5rem;
+}
+
+.skill-name{
+    color:white;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    padding-bottom:0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    background-color: white;
+    height: 4px;
+    margin-bottom:0.5rem;
+}
+
+/* right section design */
+
+.right-main-content{
+    padding:2rem 3rem;
+}
+
+.right-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding:0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.para{
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.school_details{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.school_project_title{
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+}
+
+.desc{
+    padding-left: 1rem;
+}
+
+.item2{
+    padding-top:5px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-device-width:674px) {
+    
+ .main-content{
+    grid-template-columns: repeat(1,1fr);
+ }
+ .profile-image{
+    width: 40%;
+}
+
+.fab{
+    font-size: 28px;
+}
+
+span{
+    font-size: 32px;
+}
+.skill-name{
+    font-size:0.60rem;
+}
+.right-title{
+    text-align: center;
+}
+.desc{
+    font-size: 1.2rem;
+}
+}
+
